@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zapateria.COMMON", "Zapateria.COMMON\Zapateria.COMMON.csproj", "{6E00190B-0209-406E-95EB-3F5D6E3FF4B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zapateria.BIZ", "Zapateria.BIZ\Zapateria.BIZ.csproj", "{DFE0252A-01F7-4AD9-9E92-492764CDFDF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zapateria.DAL", "Zapateria.DAL\Zapateria.DAL.csproj", "{3D58ADA5-562C-403E-8B53-724DFA689B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapateria.Administracion.GUI", "Zapateria.Adminitracion.GUI\Zapateria.Administracion.GUI.csproj", "{C16C3D9B-2138-4867-B93E-2494B5709D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapateria.Existencia.GUI", "Zapateria.Existencia.GUI\Zapateria.Existencia.GUI.csproj", "{6C3677BC-8A3D-46F1-8B81-45907504D453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapateria.Venta.GUI", "Zapateria.Venta.GUI\Zapateria.Venta.GUI.csproj", "{35741487-D2FE-4F72-B91F-F929C811D612}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E00190B-0209-406E-95EB-3F5D6E3FF4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E00190B-0209-406E-95EB-3F5D6E3FF4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E00190B-0209-406E-95EB-3F5D6E3FF4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E00190B-0209-406E-95EB-3F5D6E3FF4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE0252A-01F7-4AD9-9E92-492764CDFDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE0252A-01F7-4AD9-9E92-492764CDFDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE0252A-01F7-4AD9-9E92-492764CDFDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE0252A-01F7-4AD9-9E92-492764CDFDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D58ADA5-562C-403E-8B53-724DFA689B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D58ADA5-562C-403E-8B53-724DFA689B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D58ADA5-562C-403E-8B53-724DFA689B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D58ADA5-562C-403E-8B53-724DFA689B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16C3D9B-2138-4867-B93E-2494B5709D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16C3D9B-2138-4867-B93E-2494B5709D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16C3D9B-2138-4867-B93E-2494B5709D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16C3D9B-2138-4867-B93E-2494B5709D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3677BC-8A3D-46F1-8B81-45907504D453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3677BC-8A3D-46F1-8B81-45907504D453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3677BC-8A3D-46F1-8B81-45907504D453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3677BC-8A3D-46F1-8B81-45907504D453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35741487-D2FE-4F72-B91F-F929C811D612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35741487-D2FE-4F72-B91F-F929C811D612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35741487-D2FE-4F72-B91F-F929C811D612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35741487-D2FE-4F72-B91F-F929C811D612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

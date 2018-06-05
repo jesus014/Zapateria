@@ -1,0 +1,40 @@
+﻿<Window x:Class="Zapateria.Venta.GUI.UsuariosVenta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zapateria.Venta.GUI"
+        mc:Ignorable="d"
+        Title="UsuariosVenta" Height="300" Width="300">
+    <Window.Background>
+        <ImageBrush ImageSource="Imagenes/4.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Left">
+
+        </StackPanel>
+
+        <Label Grid.Row="1" HorizontalAlignment="Center" Foreground="Black" FontSize="18" FontWeight="Bold">Usuario:</Label>
+        <TextBox  x:Name="txbUsuario" Grid.Row="2" Width="150" Height="40" HorizontalAlignment="Center"></TextBox>
+
+        <Label HorizontalAlignment="Center" Grid.Row="3" Foreground="Black" FontSize="18" FontWeight="Bold">Contraseña:</Label>
+        <PasswordBox  x:Name="txbContrasena" Grid.Row="4" Width="150" Height="40" HorizontalAlignment="Center"></PasswordBox>
+        <Label Grid.Row="5"></Label>
+        <Button Grid.Row="6" Width="80" HorizontalAlignment="Center" Click="Button_Click" Margin="0,5,212,10">Continuar</Button>
+        <Button x:Name="btnModificar" Grid.Row="6" Width="102" HorizontalAlignment="Center" Click="btnModificar_Click" Margin="91,5,99,10">Modificar Usuario</Button>
+        <Button Grid.Row="6" Width="70" x:Name="btnSalir" HorizontalAlignment="Center" Click="btnSalir_Click" Margin="212,5,10,10">Salir</Button>
+
+    </Grid>
+</Window>

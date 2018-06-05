@@ -1,0 +1,9 @@
+﻿<Application x:Class="Zapateria.Adminitracion.GUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Zapateria.Adminitracion.GUI"
+             StartupUri="Iniciando.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
